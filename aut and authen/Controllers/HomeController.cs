@@ -27,7 +27,7 @@ namespace aut_and_authen.Controllers
             }
             else
             {
-                return BadRequest("invalid");
+                return BadRequest("invalids");
             }
         }
         [HttpPost]
